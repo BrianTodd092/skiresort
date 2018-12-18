@@ -1,0 +1,126 @@
+
+.perday {
+          font-weight: bold;
+          font-size: 18px;
+          font-family: fantasy;
+          color: purple;
+}
+
+
+
+
+
+.info {
+       color: white;
+       font-size: 18px;
+
+}
+
+
+.logo {
+       position: absolute;
+       left: 20%;
+       width: 60%;
+       height: auto;
+}
+
+
+.nav {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: space-around;
+          align-content:space-between;
+          height: 30px;
+
+}
+
+
+.contact {
+        position: absolute;
+        left: 8%;
+        opacity: 0.6;
+        background-image: url('ski1.png');
+        height: 90%;
+        width: auto;
+        max-width: 100%;
+        z-index: -1;
+
+}
+
+.skisendmail {
+              position:absolute;
+              top: 5%;
+              left: 45%;
+              width: 20%;
+              color: red;
+              font-size: 20px;
+}
+
+.lgn {
+       font-size: 25px;
+}
+
+.submit {
+          background-color: green;
+          color: white;
+          border-radius: 2px;
+          height: 35px;
+}
+
+.submit:hover {
+                height: 30px;
+
+                 width: 80px;
+}
+.wrapper {
+           display: grid;
+           grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+           grid-auto-rows: 60px;
+           text-align: center;
+           grid-template-areas: "logo logo logo logo logo logo logo logo logo logo logo logo"
+                                "logo logo logo logo logo logo logo logo logo logo logo logo"
+                                "logo logo logo logo logo logo logo logo logo logo logo logo"
+                                "logo logo logo logo logo logo logo logo logo logo logo logo"
+                                "logo logo logo logo logo logo logo logo logo logo logo logo"
+                                "nav nav nav nav nav nav nav nav nav nav nav nav"
+                                "nav nav nav nav nav nav nav nav nav nav nav nav"
+                                "adv adv adv adv adv adv adv adv adv adv adv adv"
+                                "adv adv adv adv adv adv adv adv adv adv adv adv"
+                                "adv adv adv adv adv adv adv adv adv adv adv adv"
+                                "adv adv adv adv adv adv adv adv adv adv adv adv"
+                                "img img img img img img img img img img img img"
+                                "img img img img img img img img img img img img"
+                                "img img img img img img img img img img img img"
+                                "img img img img img img img img img img img img"
+
+                                "footer footer footer footer footer footer footer footer footer footer footer footer"
+}
+
+.logo {
+        background-color: white;
+
+
+}
+
+.logo {
+       grid-area: logo;
+}
+.nav {
+       background-color: green;
+}
+.nav {
+       grid-area: nav;
+}
+
+
+
+
+.lesson {
+         grid-area: adv
+}
+
+
+.img {
+       grid-area: img;
+}
