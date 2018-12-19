@@ -31,8 +31,8 @@
           flex-direction: row;
           align-items: center;
           justify-content: space-around;
-          align-content:space-between;
-          height: 30px;
+          align-content:space-evenly;
+          height: 60px;
 
 }
 
