@@ -13,6 +13,7 @@
 .info {
        color: white;
        font-size: 18px;
+       min-height: 18px;   
 
 }
 
@@ -70,8 +71,7 @@
 
 .submit:hover {
                 height: 30px;
-
-                 width: 80px;
+                width: 80px;
 }
 .wrapper {
            display: grid;
