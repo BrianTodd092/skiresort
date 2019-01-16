@@ -67,10 +67,11 @@
           color: white;
           border-radius: 2px;
           height: 35px;
+          margin: 10px;
 }
 
 .submit:hover {
-                height: 30px;
+                
                 width: 80px;
 }
 .wrapper {
