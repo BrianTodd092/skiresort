@@ -38,8 +38,8 @@
 
 
 .contact {
-        position: absolute;
-        left: 8%;
+        position: relative;
+        left: 1%;
         opacity: 0.6;
         background-image: url('ski1.png');
         height: 90%;
