@@ -112,11 +112,11 @@
        grid-area: logo;
 }
 .nav {
-       
+       background-color: green;
 }
 .nav {
        grid-area: nav;
-       background-color: green;
+       
        
 }
 
