@@ -33,7 +33,7 @@
           justify-content: space-around;
           align-content:space-evenly;
           height: 40%;
-
+          background-color: green;
 }
 
 
@@ -112,10 +112,12 @@
        grid-area: logo;
 }
 .nav {
-       background-color: green;
+       
 }
 .nav {
        grid-area: nav;
+       
+       
 }
 
 
