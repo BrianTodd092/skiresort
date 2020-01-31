@@ -38,7 +38,7 @@
      }
      else
      {
-      echo "<p> The form has not been sent E.mail address removed from .php</p>";
+      echo "<p> The form has not been sent !</p>";
      }
      ?>
 
