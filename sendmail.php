@@ -26,7 +26,7 @@
     $msg.="Booking Inquiry: $bookinginquiry\r\n";
 
 
-    $to="";   // Enter recieving email address
+    $to="";   // Enter to email address
     $subject="web Site Feedback";   // subject should the email display
     $mailheaders="From: $email\r\n";  // email   display for the sender
 
@@ -34,7 +34,7 @@
     $formsent=mail($to, $subject, $msg, $mailheaders); //send the email
     if ($formsent)
      {
-      echo "<p> Form Recieved</p>";
+      echo "<p> Form Received</p>";
      }
      else
      {
